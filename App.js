@@ -82,7 +82,7 @@ export default class App extends React.Component {
             onSubmitEditing={(event) => this.movieNameInputSubmitted(event)}
         />
       {/*Conditionally show the Movie component, only if there's a movie in state (so not initially)*/}
-        {this.state.movie && <Movie display ={this.state.movie}/>}
+        {this.state.movie && <Movie display={this.state.movie}/>}
       </View>
     );
   }
